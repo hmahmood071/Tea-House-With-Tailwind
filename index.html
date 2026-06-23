@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,14 +22,15 @@
     }
   </script>
 </head>
+
 <body>
   <!-- Main Content -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- header section -->
-    <header class="flex pt-10 mb-20">
+    <header class="lg:flex pt-10 mb-20">
       <!-- text content -->
       <div>
-        <h1 class="text-8xl md:text-7xl text-[#1C1C1C] leading-[100%] font-semibold">It's good<br>
+        <h1 class="text-7xl lg:text-[72px] md:text-7xl text-[#1C1C1C] leading-[100%] font-semibold">It's good<br>
           tea time at The<br>
           Tea House
         </h1>
@@ -51,54 +53,67 @@
           <img class="w-full" src="images/banner.png" alt="Tea Cup">
         </div>
         <!-- card -->
-        <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-[10px]   top-28 md:top-80 md:left-32 lg:left-28">
+        <div
+          class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-[10px]   top-28 md:top-80 md:left-32 lg:left-28">
           <!-- icon -->
           <div>
             <img src="images/Group 5.png" alt="Star">
           </div>
           <!-- text -->
-           <div class="ml-2">
+          <div class="ml-2">
             <h2 class="text-[#1C1C1C] lg:text-3xl font-bold">5.00</h2>
             <p class="text-[#777777] font-semibold">Trust Pilot Ratings</p>
-           </div>
+          </div>
         </div>
       </div>
     </header>
     <!-- featured products section -->
-     <section class="py-8 lg:py-[130px] text-center">
+    <section class="py-8 lg:py-[130px] text-center">
       <!-- title -->
-       <div class="mb-8">
-          <h1 class="text-3xl md:text-[45px] font-bold mb-[20px] text-[#1C1C1C]">Our Featured Products</h1>
-          <p class="font-medium leading-7 text-[#777777] pb-14">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-       </div>
-       <!-- grid cards -->
-        <div class="grid grid-cols-4 gap-6">
-          <!-- product card 1 -->
-           <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden">
-            <img class="px-[66px] py-[30px]" src="images/tea-1.png" alt="Milk Tea">
-            <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Milk Tea</h2>
-            <p class="text-[#777777] font-semibold text-[16px] pr-[20px] pl-[20px] pb-[30px]">Creamer could be replaced by fresh milk</p>
-           </div>
-          <!-- product card 2 -->
-           <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden">
-            <img class="px-[66px] py-[30px]" src="images/tea-2.png" alt="Milk Tea">
-            <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Black Tea</h2>
-            <p class="text-[#777777] font-semibold text-[16px] pr-[20px] pl-[20px] pb-[30px]">Creamer could be replaced by fresh milk</p>
-           </div>
-          <!-- product card 3 -->
-           <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden">
-            <img class="px-[66px] py-[30px]" src="images/tea-3.png" alt="Milk Tea">
-            <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Lemon Tea</h2>
-            <p class="text-[#777777] font-semibold text-[16px] pr-[20px] pl-[20px] pb-[30px]">Creamer could be replaced by fresh milk</p>
-           </div>
-          <!-- product card 4 -->
-           <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden">
-            <img class="px-[66px] py-[30px]" src="images/tea-4.png" alt="Milk Tea">
-            <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Green Tea</h2>
-            <p class="text-[#777777] font-semibold text-[16px] pr-[20px] pl-[20px] pb-[30px]">Creamer could be replaced by fresh milk</p>
-           </div>
+      <div class="mb-8">
+        <h1 class="text-3xl md:text-[45px] font-bold mb-[20px] text-[#1C1C1C]">Our Featured Products</h1>
+        <p class="font-medium leading-7 text-[#777777] pb-14">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+          which don't look even slightly believable. </p>
+      </div>
+      <!-- grid cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- product card 1 -->
+        <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden p-8">
+          <img class="mx-auto" src="images/tea-1.png" alt="Milk Tea">
+          <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Milk Tea</h2>
+          <p class="text-[#777777] font-semibold text-[16px]">
+            Creamer could be replaced by fresh milk
+          </p>
         </div>
-     </section>
+        <!-- product card 2 -->
+         
+        <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden p-8">
+          <img class="mx-auto" src="images/tea-2.png" alt="Milk Tea">
+          <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Black Tea</h2>
+          <p class="text-[#777777] font-semibold text-[16px]">
+            Creamer could be replaced by fresh milk
+          </p>
+        </div>
+        <!-- product card 3 -->
+        <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden p-8">
+          <img class="mx-auto" src="images/tea-3.png" alt="Milk Tea">
+          <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Lemon Tea</h2>
+          <p class="text-[#777777] font-semibold text-[16px]">
+            Creamer could be replaced by fresh milk
+          </p>
+        </div>
+        <!-- product card 4 -->
+        <div class="rounded-lg shadow-md bg-[#F4F4F4] overflow-hidden p-8">
+          <img class="mx-auto" src="images/tea-4.png" alt="Milk Tea">
+          <h2 class="font-bold text-[25px] text-[#1C1C1C] pb-[10px]">Green Tea</h2>
+          <p class="text-[#777777] font-semibold text-[16px]">
+            Creamer could be replaced by fresh milk
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
+
 </html>
